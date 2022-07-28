@@ -9,6 +9,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: rgb(178, 178, 178) 2px solid;
+    border-radius: 6px;
+    margin-top: 30px;
 }
 body{
     display: flex;
@@ -34,4 +37,7 @@ body{
     color: aqua;
     font-size: x-large;
     padding: 7px;
+}
+h3{
+    font-style: italic;
 }
