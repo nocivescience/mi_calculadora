@@ -1,0 +1,43 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <body>
+        <div class="container">
+            <div class="screen shadow">
+                <div id="valor-anterior"></div>
+                <div id="valor-actual"></div>
+            </div>
+            <div class="fila memory">
+                <button onClick="display.borrar()" class="btn btn-danger celda ce">CE</button>
+                <button onClick="display.borrarTodo()" class="btn btn-danger celda c">C</button>
+            </div>
+            <div class="fila primera-fila">
+                <button class="btn btn-dark numero celda">7</button>
+                <button class="btn btn-dark numero celda">8</button>
+                <button class="btn btn-dark numero celda">9</button>
+                <button class="btn btn-secondary celda operador" value="dividir">%</button>
+            </div>
+            <div class="fila segunda-fila">
+                <button class="btn btn-dark numero celda">4</button>
+                <button class="btn btn-dark numero celda">5</button>
+                <button class="btn btn-dark numero celda">6</button>
+                <button class="btn btn-secondary celda operador" value="multiplicar">*</button>
+            </div>
+            <div class="fila tercera-fila">
+                <button class="btn btn-dark numero celda">1</button>
+                <button class="btn btn-dark numero celda">2</button>
+                <button class="btn btn-dark numero celda">3</button>
+                <button class="btn btn-secondary celda operador" value="sumar">+</button>
+            </div>
+            <div class="fila cuarta-fila">
+                <button class="btn btn-dark numero celda">0</button>
+                <button class="btn btn-secondary numero celda">.</button>
+                <button class="btn btn-secondary celda operador" value="igual">=</button>
+                <button class="btn btn-secondary celda operador" value="restar">-</button>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</html>

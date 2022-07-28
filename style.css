@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 400px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+}
+.celda{
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+}
+.screen{
+    font-family: 'VT323', monospace;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    border-radius: 4px;
+    display: flex;
+    grid-column:  1 /-1;
+    color: aqua;
+    font-size: x-large;
+    padding: 7px;
+}
